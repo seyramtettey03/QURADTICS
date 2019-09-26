@@ -15,7 +15,8 @@ public class Main {
         axisoftsymmetry = -b/(2*a);
         dicriminate = (b*b)-4*(a*c);
    // todo print results
-
+System.out.println("Axis of symmetry ");
+System.out.println("discriminate;" );
    // todo not in code; check results
 
    // todo initialize scanner and redo initialize area
