@@ -14,9 +14,15 @@ public class Main {
    // todo do calculations
         axisoftsymmetry = -b/(2*a);
         dicriminate = (b*b)-4*(a*c);
+         if (dicriminate >0){
+            System.out.println("There is one real solutions");
+    }
+            else {
+            System.out.println("There is No real solutions");
+        }
    // todo print results
-System.out.println("Axis of symmetry ");
-System.out.println("discriminate;" );
+System.out.println("Axis of symmetry"+axisoftsymmetry);
+System.out.println("discriminate;"+dicriminate );
    // todo not in code; check results
 
    // todo initialize scanner and redo initialize area
