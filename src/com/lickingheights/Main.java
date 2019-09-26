@@ -6,10 +6,13 @@ public class Main {
 	// todo declare variables a, b, c,discriminate, axisOFtsymmetry, patrabloaFacing, x and y
      double  a,b,c,descriminate,axisoftsymmetry,x,y;
      String parabloafacing;
+     double dicriminate;
    // todo initialize ammanuly
-
+    a=-5;
+    b=-3;
+    c=1;
    // todo do calculations
-
+   
    // todo print results
 
    // todo not in code; check results
