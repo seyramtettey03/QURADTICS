@@ -1,5 +1,7 @@
 package com.lickingheights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,7 +9,15 @@ public class Main {
      double  a,b,c,descriminate,axisoftsymmetry,x,y;
      String parabloafacing;
      double dicriminate;
+     Scanner radar;
    // todo initialize ammanuly
+        radar = new Scanner(System.in);
+        System.out.println("give me an A");
+        a=radar.nextInt();
+        System.out.println("give me an B");
+        b=radar.nextInt();
+        System.out.println("give me an C");
+        c=radar.nextInt();
     a=-5;
     b=-3;
     c=1;
